@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d3d3d3;
+  font-family: "Lato";
+  height: 70px;
+  z-index: 1;}
+  nav i:hover {
+    cursor: pointer;
+    color: #1155cc;}
+
+.mobile {
+  padding: 1.7em 1em;}
+
+.nav-mobile {
+  color: #ababab;
+  padding-left: 2em;
+  font-weight: 300;
+  padding-right: 2em;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -26px;}
+
+.li-mobile {
+  border-bottom: 1px solid #d3d3d3;
+  display: block;
+  cursor: pointer;
+  height: 50px;
+  text-align: left;
+  line-height: 50px;
+  font-family: "Lato";
+  color: #a9a9a9;
+  background: #ffffff;
+  text-decoration: none;
+}
+.li-mobile:hover {
+  color: #1155cc;
+}
+.li-mobile-click {
+  border-bottom: 1px solid #d3d3d3;
+  display: block;
+  cursor: pointer;
+  height: 50px;
+  text-align: left;
+  line-height: 50px;
+  font-family: "Lato";
+  color: #1155cc;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.nav_normal {
+  line-height: 35px;
+  width: 97%;
+  text-align: center;
+  }
+  .nav_normal ul {
+    margin: 0;
+    line-height: 70px; }
+
+.li-normal {
+  font-family: "Lato";
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 1.6em;
+  font-weight: 300;
+  color: #a9a9a9;}
+  .li-normal:hover {
+    cursor: pointer;
+    color: #1155cc;
+    background-color: rgba(0, 0, 0, 0);
+  }
+.li-normal-click {
+  font-family: "Lato";
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 1.6em;
+  font-weight: 300;
+  color: #1155cc;
+  border-bottom: 2px solid #1155cc;
+}
+
+.mobile-center {
+  font-family: "Lato";
+  font-size: 16px;
+  display: block;
+  font-weight: 200;
+  margin-top: -1.2em;
+  text-align: center;
+  color: #a9a9a9; }
+
+.logo-text {
+  font-size: 12px;
+  display: inline-block;
+  line-height: 1.2em;
+  font-weight: 200;
+  text-align: left;
+  vertical-align: middle;
+  color: #a9a9a9; }
+  .li-logo {
+    text-align: center;
+    margin-right: 180px;
+    display: inline-block;
+  }
+  .li-logo img{
+    vertical-align: middle;
+    padding-right: 0.5em;
+    width: auto;
+    height: 40px;
+  }
+  .li-logo:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .li-right {
+    font-family: "Lato";
+    font-size: 11px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 150px;
+    color: #1155cc;
+    text-decoration: underline; }

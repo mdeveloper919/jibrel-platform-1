@@ -13,12 +13,22 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+
+import withProgressBar from '../../components/ProgressBar';
 
 
 class AppWrapper extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <div>
+        <Helmet
+          titleTemplate="%s - Jibrel Platform"
+          defaultTitle="Jibrel Web Platform"
+          meta={[
+            {name: 'description', content: 'Jibrel Web Platform'},
+          ]}
+        />
         {React.Children.toArray(this.props.children)}
       </div>
     );
@@ -29,5 +39,5 @@ AppWrapper.propTypes = {
   children: PropTypes.node,
 };
 
-export default AppWrapper;
+export default withProgressBar(AppWrapper);
 

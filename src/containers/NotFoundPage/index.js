@@ -12,15 +12,19 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
+import BasePage from '../../components/BasePage';
+
 import messages from './messages';
 
 export default class NotFoundPage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   //noinspection JSMethodCanBeStatic
   render() {
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
+      <BasePage>
+        <h1>
+          <FormattedMessage {...messages.header} />
+        </h1>
+      </BasePage>
     );
   }
 }

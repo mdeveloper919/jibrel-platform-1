@@ -1,0 +1,118 @@
+.footer_normal {
+  font-family: 'Lato';
+  text-align: center;
+}
+
+.september_div {
+  margin-top: 15px;
+  width: 90%;
+  display: inline-block;
+  align-items: center;
+}
+
+.september_div li {
+  width: 100%;
+  display: inline-block;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 100
+}
+
+.mobile_icon_div {
+  display: table;
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple_icon_div {
+  display: table-cell;
+  padding: 1em;
+}
+
+.apple_icon_div img {
+  width: 35px;
+  height: auto;
+  opacity: 0.3
+}
+
+.button_div {
+  width: 100%;
+}
+
+.apple_button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 400px;
+  height: 40px;
+  cursor: pointer;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #d3d3d3;
+}
+
+.apple_button li {
+  display: inline-block;
+  font-weight: 100;
+  color: #d3d3d3;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.footer_div {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #e0e0e0;
+}
+
+.footer_view {
+  margin-top: 15px;
+  width: 60%;
+  height: 20px;
+  display: inline-block;
+}
+
+.footer_view li {
+  display: block;
+  text-align: left;
+  color: #f9f9f9;
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 0.8em;
+}
+
+.footer_icon {
+  width: 100%;
+  margin-bottom: 30px;
+  display: table;
+  display: inline-block;
+}
+
+.footer_icon_div {
+  width: 180px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer_icon_div img {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  opacity: 0.6
+}
+
+.footer_icon_div li {
+  display: inline-block;
+  vertical-align: middle;
+  color: #808080;
+  margin-left: 10px;
+}
