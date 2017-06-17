@@ -4,8 +4,10 @@
  */
 
 import web3Sagas from '../Web3Guard/sagas'
+import JibrelGlobalSagas from '../JibrelGlobal/sagas'
 
 export default [
   ...web3Sagas,
+  ...JibrelGlobalSagas,
 ];
 

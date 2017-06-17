@@ -1,0 +1,3 @@
+/*
+ * CrydrPage constants
+ */
